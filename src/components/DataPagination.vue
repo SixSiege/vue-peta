@@ -17,7 +17,9 @@
           <td>{{ editTime(item.tanggal) }}</td>
           <td>{{ item.alamat }}</td>
           <td>{{ item.nama_aparat }}</td>
-          <router-link
+          <td>
+            <p>
+            <router-link
               :to="{
                 name: 'Peta',
                 query: {
@@ -25,10 +27,12 @@
                   lng: item.longitude,
                 }
               }"
-              class="btn btn-primary"
+              class="btn btn-primary m-1"
             >
               Check Location
             </router-link>
+          </p>
+          </td>
         </tr>
       </tbody>
     </table>

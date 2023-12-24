@@ -1,8 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg rounded-pill p-3 fs-5" data-bs-theme="dark" style="background-color: #2B2D42;">
-    <a class="navbar-brand" href="#">
-      <img src="../assets/logotxt.png" height="40" alt="Pekanbaru Crime Map">
-    </a>
+    <router-link class="nav-link" to="/">
+      <a class="navbar-brand">
+        <img src="../assets/logotxt.png" height="40" alt="Pekanbaru Crime Map">
+      </a>
+    </router-link>
     <button
       class="navbar-toggler"
       type="button"

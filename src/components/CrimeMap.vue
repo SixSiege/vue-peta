@@ -38,7 +38,7 @@
           </l-map>
 
           <div
-            class="details shadow"
+            class="details shadow rounded-3"
             :class="{ show: selectedMarker }"
             @click="hideStatistics"
           >

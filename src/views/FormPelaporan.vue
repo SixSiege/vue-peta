@@ -89,6 +89,7 @@
             {{ aparat.nama_aparat }}
           </option>
         </select>
+        <button class="btn btn-primary">Telepon</button>
       </div>
     </div>
   </div>
